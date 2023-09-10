@@ -2,7 +2,7 @@ CC1:=docker compose
 CC2:=hexo
 IMAGE:=blog
 
-.PHONY: build up logs stop clean hexo-clean hexo-deploy hexo-sever
+.PHONY: build up logs stop clean hexo_clean hexo_deploy hexo_sever
 
 all: build
 
@@ -21,11 +21,12 @@ stop:
 clean:
 	@$(CC1) down
 
-hexo-clean:
+hexo_clean:
 	@$(CC2) clean
 
-hexo-deploy:
-    @$(CC2) g -d
+hexo_deploy:
+	@$(CC2) g
+	@$(CC2)	d
 
-hexo-sever:
+hexo_sever:
 	@$(CC2) s
