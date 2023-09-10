@@ -3,10 +3,10 @@ title: 小黃鴨除錯法(Rubber Duck Debugging)
 date: 2023-09-10 06:53:16
 tags: 軟體開發
 ---
+
 ## 00 緒論 
 小黃鴨除錯法(Rubber Duck Debugging)是指在程式的除錯/測試過程中，<font color=red>耐心的向小黃鴨</font>解釋每一行程式的功能，以此來激發靈感&發現自己的矛盾。
 
----
 ## 01 線索的查找方式 
 當問題出現時，則可從幾個角度來看待
 
@@ -23,13 +23,13 @@ tags: 軟體開發
   <table><tr><td bgcolor=#C0FF3E>
     試者「自己解釋問題」往往可以釐清問題=>找出線索=>自行求解
   </td></tr></table>
----
+
 ## 02 結論
 - 問題模糊不清=> 距離<font color=red>答案</font>越遙遠
   * 如何把<font color=red>問題</font>問清楚?
   * 問題的<font color=red>關鍵字</font>
 - 不發問 == 無答案
----
+
 ## REF
 ### 黃色小鴨除錯法 - 程式初學者 必要的修練,mis2000lab
 - 原文: https://dotblogs.com.tw/mis2000lab/2023/05/01/Rubber_Duck_Debugging_20230501

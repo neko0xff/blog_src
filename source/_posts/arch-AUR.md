@@ -3,9 +3,10 @@ title: 如何使用AUR(Arch User Repository)上套件包
 date: 2023-09-10 07:52:36
 tags: ArchLinux
 ---
+
 ## 00 前置
 - 安裝編譯時必要項目: `$ sudo pacman -S -needed base-devel git`
---- 
+ 
 ## 01 第一種: 手動取得方式
 1. 在AUR找自己需要的包：https://aur.archlinux.org/
 2. 使用AUR倉庫的源且弄到local(ex:android-studio)
@@ -17,7 +18,8 @@ tags: ArchLinux
      * 直接編譯+安裝: `$ makepkg -i`
      * 包含安裝相依的套件:`$ makepkg -is`
      * 安裝己編譯完成的套件包: `$ pacman -U [套件包]`
----
+
+
 ## 02 第二種: 使用第三方的套件管理
 ### 2-1 安裝第三方的套件管理(yay)
 - GitHub: [https://github.com/Jguer/yay](https://github.com/Jguer/yay)
@@ -31,7 +33,7 @@ tags: ArchLinux
      ```
   3. 転到要編譯的AUR源的資料夾: `$ cd yay-git`
   4. 開始編譯: `$ makepkg -is`
----
+
 ## REF
 * https://wiki.archlinux.org/title/Arch_User_Repository_(%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87)
 * https://wiki.archlinux.org/title/Makepkg_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)

@@ -8,7 +8,7 @@ tags: Linux
 - 學校: 亞東科技大學
 - 安裝相關套件
   * Arch: `$ sudo pacman -S openfortivpn networkmanager-fortisslvpn`
----
+
 ## 01 使用桌面環境下的內建網路設定
 1. 設置
    * 加入VPN類型: Fortinet SSLVPN
@@ -18,7 +18,7 @@ tags: Linux
    * 認証方式
      * 使用者名稱: `學號`
      * 密碼: `(使用者自定義)`
----
+
 ## 02 CLI
 ### 2-1 直接連線
 ```shell
@@ -45,7 +45,7 @@ tags: Linux
    ```shell
      $ sudo openfortivpn -c /etc/openfortivpn/aeustVPN.conf
    ```
----
+
 ## REF
 - https://ithelp.ithome.com.tw/articles/10298204?sc=iThelpR
 - https://hackmd.io/@stanley2058/ryULFm57D

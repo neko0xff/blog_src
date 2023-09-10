@@ -15,7 +15,7 @@ tags: ArchLinux
      $ sudo firewall-cmd --add-service=mssql --permanent
      $ sudo firewall-cmd --reload
   ```
----
+
 ## 01 環境
 - 進入設置: `$ sudo /opt/mssql/bin/mssql-conf setup `
 - 正式開始設置
@@ -83,7 +83,7 @@ tags: ArchLinux
      Created symlink /etc/systemd/system/multi-user.target.wants/mssql-server.service → /usr/lib/systemd/system/mssql-server.service.
      安裝程式已成功完成。SQL Server 現在正在啟動中。
   ```
----
+
 ## 02 服務使用方式
 ### 2-1 啟用
 - Systemd: `$ sudo systemctl enable --now mssql-server`
@@ -103,10 +103,10 @@ tags: ArchLinux
         Developer Edition (64-bit) on Linux (Arch Linux) <X64> 
        (1 rows affected)
     ```
----
+
 ## 03 資料庫的位置
 - 資料庫檔案: `/var/opt/mssql/`
----
+
 ## REF
 - https://www.sunzhongwei.com/diff-between-the-sql-server-2017-developer-version-and-express-edition
 - https://learn.microsoft.com/zh-tw/sql/sql-server/editions-and-components-of-sql-server-2019?view=sql-server-ver16

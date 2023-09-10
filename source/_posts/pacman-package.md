@@ -3,6 +3,7 @@ title: 在pacman中加入第三方己編譯的套件包倉庫源
 date: 2023-09-10 07:33:09
 tags: ArchLinux
 ---
+
 ## 01 加入新來源
 ### 1-1 來源&鏡像伺服器
 - `/etc/pacman.conf`中的[section]都會定義了一個使用的套件包的倉庫
@@ -32,17 +33,16 @@ tags: ArchLinux
   * `SigLevel=TrustAll`: 安裝信任所有的密鑰簽署的套件包(限測試使用)
   * `SigLevel = Never`: 不去驗証密鑰簽署,直接安裝
 
----
 ## 02 加入第三方倉庫的金鑰
 ```bash
 $ sudo pacman-key -r 5EE46C4C --keyserver hkp://pool.sks-keyservers.net 
 $ sudo pacman-key --lsign-key 5EE46C4C
 ```
----
+
 ## 03 開始安裝
 1. 重新確認來源: `$ sudo pacman -Syyu`
 2. 安裝套件: `$ sudo pacman -S linux-ck linux-ck-headers`
----
+
 ## REF
 - https://wiki.archlinux.org/title/Unofficial_user_repositories_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
 - https://wiki.archlinux.org/title/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
