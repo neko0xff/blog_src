@@ -1,8 +1,10 @@
 # neko0xff blog
 ## 主要組成
 - 靜態網頁框架: hexo
-- 主題: next
-- 支援部分
+  * 主題: next
+  * 相依元件
+    * pandoc
+- 支援輸出部分
   * Github Page
   * hexo-server
   * docker 
@@ -12,7 +14,6 @@
 ---
 ## How Running this blog
 ```
-  $ hexo server
   $ hexo s
 ```
 ---
@@ -23,6 +24,6 @@
 ---
 ## Deploy Github 
 ```
-  $ hexo cl
-  $ hexo g -d
+  $ hexo cl   // 清除先前建置的靜態檔案
+  $ hexo g -d // 開始部署
 ```

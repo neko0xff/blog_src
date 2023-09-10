@@ -15,6 +15,7 @@ menu:
   schedule: 時間表
   sitemap: 網站地圖
   commonweal: 公益 404
+  link: 友站鏈結
 sidebar:
   overview: 本站概要
   toc: 文章目錄
@@ -77,7 +78,7 @@ reward:
   paypal: PayPal
   bitcoin: 比特幣
 follow_me:
-  welcome: 歡迎關注我的其它發布渠道
+  welcome: 歡迎關注我的其它發布管道
 accessibility:
   nav_toggle: 切換導航欄
   prev_page: 上一頁

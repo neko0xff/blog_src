@@ -117,13 +117,14 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  #about: /about/ || fa fa-user
+  about: /about/ || about
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
+  links: /links/ || link
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -177,15 +178,15 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/neko0xff || neko0xff
-  E-Mail: mailto:chzang55@gmail.com || neko0xff
+  GitHub: https://github.com/neko0xff || fab fa-github
+  E-Mail: mailto:chzang55@gmail.com || fab fa-mail
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
-  Twitter: https://twitter.com/neko_0xFF || Neko ◣ 0xFF
+  Twitter: https://twitter.com/neko_0xFF || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
-  YouTube: https://www.youtube.com/channel/UCfBR43eCo07mPWN6K-97TEA || neko_0xff ch 
-  Instagram: https://www.instagram.com/neko_0xff/ || neko0xff
+  YouTube: https://www.youtube.com/channel/UCfBR43eCo07mPWN6K-97TEA || fab fa-youtube
+  Instagram: https://www.instagram.com/neko_0xff/ || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
 
 social_icons:
@@ -274,8 +275,8 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  #Twitter: https://twitter.com/username || fab fa-twitter
-  #Telegram: https://t.me/channel_name || fab fa-telegram
+  Twitter: https://twitter.com/neko0xff || fab fa-twitter
+  Telegram: https://t.me/neko_0xff || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
 
@@ -995,3 +996,10 @@ vendors:
 css: css
 js: js
 images: images
+
+# 友站鍵結交换
+mylinks:
+  # - nickname: neko0xff  #友站名稱
+  #   site: https://neko0xff.github.io/  #友站鏈結
+  #   info: 喵。  #友站介紹
+  #   avatar: https://neko0xff.github.io/images/avatar.jpg  #友站頭像
