@@ -1,12 +1,10 @@
 CC1:=docker compose
-CC2:=flutter
-IMAGE:=viewapp_v1_1
+CC2:=hexo
+IMAGE:=blog
 
-.PHONY: build up logs stop clean apk linux
+.PHONY: build up logs stop clean hexo-clean hexo-deploy hexo-sever
 
 all: build
-apk: build-apk
-linux: build-linux
 
 build:
 	@$(CC1) up --build -d
@@ -23,8 +21,11 @@ stop:
 clean:
 	@$(CC1) down
 
-build-apk:
-	@$(CC2) build apk
+hexo-clean:
+	@$(CC2) clean
 
-build-linux:
-	@$(CC2) build linux
+hexo-deploy:
+    @$(CC2) g -d
+
+hexo-sever:
+	@$(CC2) s

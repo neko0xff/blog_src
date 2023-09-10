@@ -500,10 +500,10 @@ math:
 
   # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
   mathjax:
-    enable: false
+    enable: true
     # See: https://mhchem.github.io/MathJax-mhchem/
     mhchem: false
-
+  
   # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) required for full Katex support.
   katex:
     enable: false
@@ -811,7 +811,7 @@ pdf:
 
 # Mermaid tag
 mermaid:
-  enable: false
+  enable: true
   # Available themes: default | dark | forest | neutral
   theme: forest
 
@@ -892,7 +892,7 @@ vendors:
 
   # MathJax
   # mathjax: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  mathjax:
+  mathjax: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
   # KaTeX
   # katex: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
@@ -959,7 +959,7 @@ vendors:
   # Mermaid
   # mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
   # mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js
-  mermaid:
+  mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
 
   # Internal version: 1.2.1
   # velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js

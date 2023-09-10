@@ -16,6 +16,7 @@ tags: Linux
 ## 01 測試正反解是否正常
 ### 1-0 安裝相關工具
 - arch: `$ sudo pacman -S dnsutils`
+
 ### 1-1 正解
 ```bash
 $ nslookup www.google.com
