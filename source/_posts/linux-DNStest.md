@@ -18,6 +18,7 @@ tags: Linux
 - arch: `$ sudo pacman -S dnsutils`
 
 ### 1-1 正解
+
 ```bash
 $ nslookup www.google.com
 Server:         192.168.0.1
@@ -29,13 +30,15 @@ Address: 142.251.43.4
 Name:   www.google.com
 Address: 2404:6800:4012:3::2004
 ```
+
 ### 1-2 反解
+
 ```bash
 $ nslookup 8.8.8.8
 8.8.8.8.in-addr.arpa    name = dns.google.
 Authoritative answers can be found from:
 ```
----
+
 ## 02 查詢DNS主機資訊
 WHOIS是用來查詢網際網路中域名的IP以及所有者等資訊的傳輸協定
 
@@ -43,6 +46,7 @@ WHOIS是用來查詢網際網路中域名的IP以及所有者等資訊的傳輸�
 - Arch/Manjaro: `$ sudo pacman -S whois`
 
 ### 2-1 檢視
+
 ```
 $ whois google.com
   Domain Name: GOOGLE.COM
@@ -185,7 +189,7 @@ Contact us at +1.8007459229
 In Europe, at +44.02032062220
 
 ```
----
+
 ## REF
 - https://man.archlinux.org/man/resolv.conf.5
 - https://zh.wikipedia.org/wiki/Resolv.conf%E6%96%87%E4%BB%B6

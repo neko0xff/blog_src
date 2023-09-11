@@ -10,9 +10,8 @@ tags: Linux
   1. 修改NetworkManager設定檔: `/etc/NetworkManager/conf.d/mac.conf`
   2. 修改完成後，請重啟NetworkManager，使設定生效: `$ sudo systemctl restart NetworkManager`
 
----
-
 ## 01 使用隨機產生Mac Address
+
 ```shell=
 [device]
 wifi.scan-rand-mac-address=yes
@@ -22,7 +21,6 @@ ethernet.scan-rand-mac-address=yes
 ethernet.cloned-mac-address=random
 wifi.cloned-mac-address=random 
 ```
----
 
 ## 02 使用特定Mac Address
 ```shell=
@@ -34,7 +32,6 @@ ethernet.scan-rand-mac-address=no
 ethernet.cloned-mac-address=[NEW_MAC1]
 wifi.cloned-mac-address=[NEW_MAC2]
 ```
----
 
 ## 03 不修改+使用原機的Mac Address
 ```shell=
@@ -42,7 +39,6 @@ wifi.cloned-mac-address=[NEW_MAC2]
 wifi.scan-rand-mac-address=no
 ethernet.scan-rand-mac-address=no
 ```
----
 
 ## REF
 - https://miloserdov.org/?p=6174

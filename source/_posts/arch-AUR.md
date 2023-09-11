@@ -21,6 +21,7 @@ tags: ArchLinux
 
 
 ## 02 第二種: 使用第三方的套件管理
+
 ### 2-1 安裝第三方的套件管理(yay)
 - GitHub: [https://github.com/Jguer/yay](https://github.com/Jguer/yay)
   * 官方說明: https://github.com/Jguer/yay#examples-of-custom-operations

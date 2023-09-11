@@ -32,6 +32,6 @@ tags: 軟體開發
 
 ## REF
 ### 黃色小鴨除錯法 - 程式初學者 必要的修練,mis2000lab
-- 原文: https://dotblogs.com.tw/mis2000lab/2023/05/01/Rubber_Duck_Debugging_20230501
+- https://dotblogs.com.tw/mis2000lab/2023/05/01/Rubber_Duck_Debugging_20230501
 - 相關影片: https://www.youtube.com/watch?v=ku61dWC5VvI
   {%youtube ku61dWC5VvI %}
