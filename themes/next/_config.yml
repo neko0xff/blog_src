@@ -117,14 +117,14 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  about: /about/ || about
-  #tags: /tags/ || fa fa-tags
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-  links: /links/ || link
+  links: /links/ || fa fa-list
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -179,7 +179,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/neko0xff || fab fa-github
-  E-Mail: mailto:chzang55@gmail.com || fab fa-email
+  E-Mail: mailto:chzang55@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   Twitter: https://twitter.com/neko_0xFF || fab fa-twitter
@@ -202,7 +202,8 @@ links_settings:
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  Main: http://neko0xff.github.io
+  Telegram: https://t.me/zang_post
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -256,7 +257,7 @@ symbols_count_time:
   item_text_total: false
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: false
+tag_icon: true
 
 # Reward (Donate)
 # Front-matter variable (unsupport animation).
@@ -464,7 +465,7 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification:
+google_site_verification: 
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
