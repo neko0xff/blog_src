@@ -3,17 +3,20 @@ title: Linux設置DNS解析和測試
 date: 2023-09-10 08:08:50
 tags: Linux
 ---
+
 ## 00 加入用於解析的DNS Server 
+
 - resolv.conf : 用於管理多個DNS設定檔的框架
   * 設定檔: `/etc/resolv.conf`
-  ```
-   nameserver 8.8.8.8
-   nameserver 8.8.4.4
-   nameserver 1.1.1.1
-   nameserver 1.0.0.1
-  ```
----
+    ```
+      nameserver 8.8.8.8
+      nameserver 8.8.4.4
+      nameserver 1.1.1.1
+      nameserver 1.0.0.1
+    ```
+
 ## 01 測試正反解是否正常
+
 ### 1-0 安裝相關工具
 - arch: `$ sudo pacman -S dnsutils`
 
