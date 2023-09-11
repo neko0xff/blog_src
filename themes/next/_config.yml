@@ -276,8 +276,8 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  Twitter: https://twitter.com/neko0xff || fab fa-twitter
-  Telegram: https://t.me/neko_0xff || fab fa-telegram
+  Twitter: https://twitter.com/neko_0xff || fab fa-twitter
+  Telegram: https://t.me/zang_post || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
 
@@ -1008,3 +1008,7 @@ mylinks:
     site: https://cynosura.one/ #友站鏈結
     info: Trying to light up the dark.  #友站介紹
     avatar: https://cynosura.one/img/profile-avatar.webp  #友站頭像
+  - nickname: minetaro12
+    site: https://0sn.net
+    info: Oさんです
+    avatar: https://0sn.net/img/saber.png
