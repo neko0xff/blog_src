@@ -18,6 +18,13 @@ date: 2023-09-11 06:18:18
     * 把結果包裝成Container&Image,使服務可馬上部署&提供
     * 自動把結果輸出成靜態內容後，再發布到GitHub Pages
 
+## 主要的SNS
+- [GitHub](https://github.com/neko0xff)
+- [E-Mail](mailto:chzang55@gmail.com)
+- [Twitter](https://twitter.com/neko_0xFF)
+- [YouTube](https://www.youtube.com/channel/UCfBR43eCo07mPWN6K-97TEA)
+- [Instagram](https://www.instagram.com/neko_0xff/)
+
 ## 如何加入友站鏈結
 1. 向該站管理者私信或者提出Issues到`neko0xff/blog_src`
    * 相關倉庫: [https://github.com/neko0xff/blog_src](https://github.com/neko0xff/blog_src)
