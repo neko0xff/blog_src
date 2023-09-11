@@ -48,15 +48,15 @@ podman是由RedHat開發的一個無背景程序(Daemonless)的容器引擎，�
      ╰─➤  podman run quay.io/podman/hello         
         !... Hello Podman World ...!
 
-            .--"--.           
-         / -     - \         
-        / (O)   (O) \        
-     ~~~| -=(,Y,)=- |         
-      .---. /`  \   |~~      
-      ~/  o  o \~~~~.----. ~~   
-      | =(X)= |~  / (O (O) \   
-        ~~~~~~~  ~| =(Y_)=-  |   
-       ~~~~    ~~~|   U      |~~ 
+                .--"--.           
+              / -     - \         
+             / (O)   (O) \        
+          ~~~| -=(,Y,)=- |         
+           .---. /`  \   |~~      
+            ~/  o  o \~~~~.----. ~~   
+             | =(X)= |~  / (O (O) \   
+               ~~~~~~~  ~| =(Y_)=- |   
+              ~~~~    ~~~|   U     |~~ 
 
      Project:   https://github.com/containers/podman
      Website:   https://podman.io
@@ -66,11 +66,15 @@ podman是由RedHat開發的一個無背景程序(Daemonless)的容器引擎，�
 - 重啟podman: `$ podman system reset`
 
 ## 03 管理工具
+
 podman提供了一些管理Container&Image的工具
+
 - 終端命令列: `podman-tui`
   * Arch: [AUR](https://aur.archlinux.org/packages/podman-tui)
+
 - 桌面端: `podman-desktop`
   * Arch: [AUR](https://aur.archlinux.org/packages/podman-desktop)
+
 - Cockpit: `cockpit-podman`
 
 ## 04 打包成容器
