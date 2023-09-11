@@ -89,7 +89,7 @@ creative_commons:
   license: by-nc-sa
   sidebar: false
   post: false
-  language:
+  language: zh-TW
 
 
 # ---------------------------------------------------------------
@@ -179,7 +179,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/neko0xff || fab fa-github
-  E-Mail: mailto:chzang55@gmail.com || fab fa-mail
+  E-Mail: mailto:chzang55@gmail.com || fab fa-email
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   Twitter: https://twitter.com/neko_0xFF || fab fa-twitter
@@ -620,7 +620,7 @@ valine:
   avatar: mm # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
-  language: # Language, available values: en, zh-cn
+  language: zh-tw # Language, available values: en, zh-cn
   visitor: false # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: false # Whether to record the commenter IP
@@ -1003,3 +1003,7 @@ mylinks:
   #   site: https://neko0xff.github.io/  #友站鏈結
   #   info: 喵。  #友站介紹
   #   avatar: https://neko0xff.github.io/images/avatar.jpg  #友站頭像
+  - nickname: Cynosura  #友站名稱
+    site: https://cynosura.one/ #友站鏈結
+    info: Trying to light up the dark.  #友站介紹
+    avatar: https://cynosura.one/img/profile-avatar.webp  #友站頭像
