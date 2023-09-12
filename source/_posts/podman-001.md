@@ -12,9 +12,9 @@ podman是由RedHat開發的一個無背景程序(Daemonless)的容器引擎，�
   2. 提供了一個與 Docker 兼容的命令行前端&功能來管理 Docker 鏡像
   3. 不需要啟用任何背景(daemon)程序，且可在沒有root(管理者)權限的情況下運作
      * 相對的容器在運行/構建容器鏡像時，可提升系統本身的安全性(減少系統安全性漏洞)
-     * 原理: 通過`runC runtime process`直接跟Linux核心構通+運行容器（Container）
+     * 原理: 是透過`runC(run container)`等工具直接去跟Linux核心構通+建置/運行容器
 
-- 己有內建的發行版
+- 己收錄在套件庫的發行版
   * Red Hat系
     1. Fedora
     2. CentOS Stream
@@ -28,7 +28,7 @@ podman是由RedHat開發的一個無背景程序(Daemonless)的容器引擎，�
 ## 01 前置
 1. 使用者權限設置
    ```zsh
-      $ sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 zangmenhsu
+      $ sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 [username]
    ```
 2. 安裝相關套件
    * arch: `$ sudo pacman -S podman slirp4netns`
@@ -87,7 +87,7 @@ podman提供了一些管理Container&Image的工具
 - pip: `$ sudo pip3 install podman-compose`
 
 ### 4-2 指令操作
-`podman-compose`與`docker-compose`操作大致相同，且可使用`docker-compose.yaml`+`Dockerfile`來建置podman容器
+podman-compose和docker-compose操作都大致相同,且podman-compose可同時使用docker-compose.yaml+Dockerfile的組合來進行自動建置容器的部分。
 
 - 指令
   * 建置: `$ podman-compose up -d`
@@ -98,7 +98,7 @@ podman提供了一些管理Container&Image的工具
   * 檢視相關指令說明: `$ podman-compose --help`
 
 ### 4-3 注意部分
-若`podman-compose`&`docker-compose`都已安裝在相同的系統上，請務必注意無法以交替方式呼叫
+若`podman-compose`&`docker-compose`都已安裝在相同的系統上，請注意二者無法以交替方式進行呼叫。
   <table><tr><td bgcolor=0000FF>
    <font color=white> 容器若是由`podman-compose`啟動，相對的則無法使用 `docker-compose`來查詢或停止</font>
   </td></tr></table>
@@ -110,3 +110,4 @@ podman提供了一些管理Container&Image的工具
 - https://docs.oracle.com/zh-tw/learn/podman-compose/index.html#confirm-podman-compose-is-working
 - https://dywang.csie.cyut.edu.tw/dywang/download/pdf/docker-podman.pdf
 - https://ithelp.ithome.com.tw/articles/10238749
+- https://www.huweihuang.com/kubernetes-notes/runtime/runtime.html
