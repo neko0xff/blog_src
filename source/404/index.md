@@ -13,7 +13,7 @@ permalink: /404.html
 
 預計將在約 <span id="timeout">5</span> 秒後返回首頁。
 
-如果你很急著想看文章，你可以 **[點這裡](https://neko0xff.github.io/)** 返回首頁。
+如果你很急著想看文章，你可以 **[點這裡](https://neko0xff.github.io/)** 來返回首頁。
 
 <script >
 let countTime = 5;

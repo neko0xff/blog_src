@@ -9,6 +9,8 @@ Preload（預加載）會在後台工作，以自動觀察您如何使用這台�
 
 安裝好Preload後，您使用頻率最高的應用程式(ex: 網頁遊覽器&辦公套件)的加載速度會明顯快於不經常使用的應用程式。
 
+<!--more-->
+
 ## 01 操作
 1. 從AUR倉庫安裝
    * 相關倉庫: https://aur.archlinux.org/packages/preload

@@ -4,7 +4,12 @@ date: 2023-09-10 08:08:50
 tags: Linux
 ---
 
-## 00 加入用於解析的DNS Server 
+## 00 緒論
+當要測試自架或其它的DNS是否有效時，則需要另行在系統上自行設置相關的設定
+
+<!--more-->
+
+## 01 加入用於解析的DNS Server 
 
 - resolv.conf : 用於管理多個DNS設定檔的框架
   * 設定檔: `/etc/resolv.conf`
@@ -15,12 +20,12 @@ tags: Linux
       nameserver 1.0.0.1
     ```
 
-## 01 測試正反解是否正常
+## 02 測試正反解是否正常
 
-### 1-0 安裝相關工具
+### 2-0 安裝相關工具
 - arch: `$ sudo pacman -S dnsutils`
 
-### 1-1 正解
+### 2-1 正解
 
 ```bash
 $ nslookup www.google.com
@@ -34,7 +39,7 @@ Name:   www.google.com
 Address: 2404:6800:4012:3::2004
 ```
 
-### 1-2 反解
+### 2-2 反解
 
 ```bash
 $ nslookup 8.8.8.8
@@ -42,13 +47,13 @@ $ nslookup 8.8.8.8
 Authoritative answers can be found from:
 ```
 
-## 02 查詢DNS主機資訊
+## 03 查詢DNS主機資訊
 WHOIS是用來查詢網際網路中域名的IP以及所有者等資訊的傳輸協定
 
-### 2-0 安裝相關工具
+### 3-0 安裝相關工具
 - Arch/Manjaro: `$ sudo pacman -S whois`
 
-### 2-1 檢視
+### 3-1 檢視
 
 ```
 $ whois google.com

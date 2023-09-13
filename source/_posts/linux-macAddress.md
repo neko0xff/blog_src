@@ -10,6 +10,8 @@ tags: Linux
   1. 修改NetworkManager設定檔: `/etc/NetworkManager/conf.d/mac.conf`
   2. 修改完成後，請重啟NetworkManager，使設定生效: `$ sudo systemctl restart NetworkManager`
 
+<!--more-->
+
 ## 01 使用隨機產生Mac Address
 
 ```shell=

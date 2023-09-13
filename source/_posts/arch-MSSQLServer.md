@@ -3,20 +3,25 @@ title: Arch-在Arch Linux安裝MS SQL Server
 date: 2023-09-10 07:12:20
 tags: ArchLinux
 ---
-## 00 前置
-### 0-1 安裝相関環境
+
+## 00 緒論
+網路上的相關的安裝設置大部分以Deb/RPM系的發行版居多，則自己就寫了一個Arch的教學文件。。。
+<!--more-->
+
+## 01 前置
+### 1-1 安裝相関環境
 - AUR:
   * `mssql-server`: https://aur.archlinux.org/packages/mssql-server
   * `mssql-tools`: https://aur.archlinux.org/packages/mssql-tools
 - 使用yay進行安裝: `$ yay -S mssql-server mssql-tools`
-### 0-2 防火牆
+### 1-2 防火牆
 - firewalld
   ```
      $ sudo firewall-cmd --add-service=mssql --permanent
      $ sudo firewall-cmd --reload
   ```
 
-## 01 環境
+## 02 環境
 - 進入設置: `$ sudo /opt/mssql/bin/mssql-conf setup `
 - 正式開始設置
   1. 選擇 SQL Server 的版本
@@ -84,10 +89,10 @@ tags: ArchLinux
      安裝程式已成功完成。SQL Server 現在正在啟動中。
   ```
 
-## 02 服務使用方式
-### 2-1 啟用
+## 03 服務使用方式
+### 3-1 啟用
 - Systemd: `$ sudo systemctl enable --now mssql-server`
-### 2-2 CLI Login
+### 3-2 CLI Login
 - Login(NO SSL Login): `$ sqlcmd -S localhost -U sa -P '[Your_Password]' -C`
 - 檢視安裝版本
   * 指令
@@ -104,7 +109,7 @@ tags: ArchLinux
        (1 rows affected)
     ```
 
-## 03 資料庫的位置
+## 04 資料庫的位置
 - 資料庫檔案: `/var/opt/mssql/`
 
 ## REF

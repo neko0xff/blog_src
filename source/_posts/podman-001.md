@@ -14,6 +14,8 @@ podman是由RedHat開發的一個無背景程序(Daemonless)的容器引擎，�
      * 相對的容器在運行/構建容器鏡像時，可提升系統本身的安全性(減少系統安全性漏洞)
      * 原理: 是透過`runC(run container)`等工具直接去跟Linux核心構通+建置/運行容器
 
+<!--more-->
+
 - 己收錄在套件庫的發行版
   * Red Hat系
     1. Fedora

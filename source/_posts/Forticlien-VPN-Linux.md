@@ -4,7 +4,12 @@ date: 2023-09-10 07:43:47
 tags: Linux
 ---
 
-## 00 使用到的相関工具&條件
+## 00 緒論
+當要在Linux上使用Fortinet防火牆所架設的VPN時，則需要另行安裝一些套件來使系統可方便支援。
+
+<!--more-->
+
+## 01 使用到的相関工具&條件
 - 網路管理: Network Manager
 - 學校: 亞東科技大學
 - 安裝相關套件
@@ -12,7 +17,7 @@ tags: Linux
 - 若需要用Networkmanager來管理Fortinet的 設定,則請安裝`networkmanager-fortisslvpn`
   * [AUR](https://aur.archlinux.org/packages/networkmanager-fortisslvpn)
 
-## 01 使用桌面環境下的內建網路設定
+## 02 使用桌面環境下的內建網路設定
 1. 設置
    * 加入VPN類型: Fortinet SSLVPN
 2. VPN設定檔
@@ -22,14 +27,14 @@ tags: Linux
      * 使用者名稱: `學號`
      * 密碼: `(使用者自定義)`
 
-## 02 使用終端&系統手動設置
-### 2-1 直接在終端機下設置連線
+## 03 使用終端&系統手動設置
+### 3-1 直接在終端機下設置連線
 
 ```shell
   $ sudo openfortivpn sslvpn.aeust.edu.tw --username=[學號] --password=[(使用者自定義)] 
 ```
 
-### 2-2 編寫設定檔
+### 3-2 編寫設定檔
 
 <table><tr><td bgcolor=0000FF>
   <font color=white> 官方範例存放點: `/etc/openfortivpn/config` </font>

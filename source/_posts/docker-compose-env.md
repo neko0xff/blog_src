@@ -7,6 +7,8 @@ tags: docker
 ## 00 緒論
 當寫好用來建置鏡像檔的dockerfile且同時想使用docker-compose來建置整個容器時，則可直接把需要建置的部分寫入到`docker-compose.yml`內部。
 
+<!--more-->
+
 ## 01 方法
 1. 請把己經寫好的`Dockerfile`加上`.env`的副檔名: `Dockerfile.env`
 2. 在`docker-compose.yml`加入相關的設置
