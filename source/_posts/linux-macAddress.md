@@ -1,5 +1,5 @@
 ---
-title: Linux-在Linux上改變網卡的Mac Address
+title: Linux-改變網卡的Mac Address
 date: 2023-09-10 12:30:04
 tags: Linux
 ---
