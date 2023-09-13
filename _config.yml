@@ -166,3 +166,10 @@ neat_js:
   compress:
   exclude:
     - '*.min.js'
+
+# nofollow: all external links for security, privacy and SEO
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'neko0xff.github.io'
