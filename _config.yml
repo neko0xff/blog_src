@@ -12,7 +12,10 @@ keywords:
    - Container
    - docker
 author: neko0xff
-language: zh-tw
+language: 
+  - zh-TW
+  - zh-HK
+  - zh-CN
 timezone: 'Asia/Taipei'
 
 # URL
