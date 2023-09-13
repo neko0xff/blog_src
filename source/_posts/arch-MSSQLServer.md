@@ -1,5 +1,5 @@
 ---
-title: 在Arch Linux安裝MS SQL Server
+title: Arch-在Arch Linux安裝MS SQL Server
 date: 2023-09-10 07:12:20
 tags: ArchLinux
 ---

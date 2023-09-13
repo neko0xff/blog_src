@@ -1,5 +1,5 @@
 ---
-title: 如何使用AUR(Arch User Repository)上套件包
+title: Arch-如何使用AUR(Arch User Repository)上套件包
 date: 2023-09-10 07:52:36
 tags: ArchLinux
 ---

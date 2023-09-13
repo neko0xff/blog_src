@@ -1,5 +1,5 @@
 ---
-title: 小黃鴨除錯法(Rubber Duck Debugging)
+title: 軟體開發-小黃鴨除錯法(Rubber Duck Debugging)
 date: 2023-09-10 06:53:16
 tags: 軟體開發
 ---

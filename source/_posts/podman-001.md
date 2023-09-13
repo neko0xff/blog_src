@@ -1,7 +1,7 @@
 ---
-title: Podman-入門使用
+title: podman-入門使用
 date: 2023-09-11 09:41:29
-tags: Podman
+tags: podman
 ---
 
 ## 00 緒論

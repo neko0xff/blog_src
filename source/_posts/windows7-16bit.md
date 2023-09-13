@@ -1,5 +1,5 @@
 ---
-title: 如何在Windows7以上的系統運行16位元以下的老程式
+title: Windows-如何在Windows7以上的系統運行16位元以下的老程式
 date: 2023-09-10 06:22:44
 tags: Windows
 ---

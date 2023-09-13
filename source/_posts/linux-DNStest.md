@@ -1,5 +1,5 @@
 ---
-title: Linux設置DNS解析和測試 
+title: Linux-設置DNS解析和測試 
 date: 2023-09-10 08:08:50
 tags: Linux
 ---

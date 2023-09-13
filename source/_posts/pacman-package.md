@@ -1,5 +1,5 @@
 ---
-title: 在pacman中加入第三方己編譯的套件包倉庫源
+title: Arch-在pacman中加入第三方己編譯的套件包倉庫源
 date: 2023-09-10 07:33:09
 tags: ArchLinux
 ---

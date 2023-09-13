@@ -1,11 +1,11 @@
 ---
-title: 使用Web進行管理docker容器&鏡像
+title: docker-使用網頁/移動端進行管理docker容器&鏡像
 date: 2023-09-13 10:33:41
 tags: docker
 ---
 
 ## 00 諸論
-使用Web管理容器&鏡像，則可增加管理的效率和降低使用者的學習操作成本(提供可視化的圖型操作)，且可方便查看容器內部運行的真實情況(可指定輸出運行過程的記錄檔)。
+使用網頁/移動端管理容器&鏡像，則可增加管理的效率和降低使用者的學習操作成本(提供可視化的圖型操作)，且可方便查看容器內部運行的真實情況(可指定輸出運行過程的記錄檔)。
 
 ## 01 Server
 ### 1-0 緒論
@@ -28,7 +28,7 @@ tags: docker
 3. 完成後輸入`localhost:9000`可以進入portainer進行設定使用者的初始設置。
 
 #### 1-2 使用docker-compose進行建置
-- docker-compose.yaml
+- docker-compose.yml
   ```yaml=
      version: "3"
      services:
@@ -63,7 +63,7 @@ tags: docker
 3. 輸入名稱與Agent的URL，預設安裝Agent的port是9001，按下Add endpoint即可
 
 #### 2-2 使用docker-compose進行建置
-- docker-compose.yaml
+- docker-compose.yml
   ```yaml=
      version: "3"
      services:
@@ -91,7 +91,7 @@ tags: docker
    ```
 
 ## 04 提供的的額外部分
-- 第三方有提供移動端的部分管理
+- 第三方有提供移動端的部分,可使用手機或平版來管理機器上的Portainer
   * Android: Portarius
     * [Github](https://github.com/zbejas/portarius)
     * [Google Play](https://play.google.com/store/apps/details?id=si.zbe.portarius&pli=1)

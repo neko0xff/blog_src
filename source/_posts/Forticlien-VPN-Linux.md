@@ -1,5 +1,5 @@
 ---
-title: 在Linux下連線到Forticlient VPN
+title: Linux-在Linux下連線到Forticlient VPN
 date: 2023-09-10 07:43:47
 tags: Linux
 ---
