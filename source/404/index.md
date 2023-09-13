@@ -7,13 +7,13 @@ permalink: /404.html
 
 <!-- markdownlint-disable MD039 MD033 -->
 
-## 這是一個不存在的頁面
+## 這是一個不存在於這伺服器的頁面
 
-很抱歉，你目前存取的頁面並不存在。
+很抱歉，你目前存取的頁面並不存在於該伺服器。
 
-預計將在約 <span id="timeout">5</span> 秒後返回首頁。
+預計將在約 <span id="timeout">5</span> 秒後直接返回主頁。
 
-如果你很急著想看文章，你可以 **[點這裡](https://neko0xff.github.io/)** 來返回首頁。
+如果你很急著想看本人的文章，你可以選擇 **[點這裡](https://neko0xff.github.io/)** 的鏈結來返回主頁。
 
 <script >
 let countTime = 5;
