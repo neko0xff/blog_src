@@ -3,7 +3,7 @@ CC2:=hexo
 CC3:=npm
 IMAGE:=blog
 
-.PHONY: build up logs stop clean hexo_clean hexo_deploy hexo_server npm_update
+.PHONY: build up logs stop clean hexo_clean hexo_deploy npm_update
 
 all: build
 
@@ -32,5 +32,3 @@ hexo_deploy:
 	@$(CC2) cl
 	@$(CC2) g -d
 
-hexo_server:
-	@$(CC2) s
