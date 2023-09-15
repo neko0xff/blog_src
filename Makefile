@@ -22,11 +22,11 @@ clean:
 	@$(CC1) down
 
 hexo_clean:
-	@$(CC2) clean
+	@$(CC2) cl
 
 hexo_deploy:
-	@$(CC2) g
-	@$(CC2)	d
+	@$(CC2) cl
+	@$(CC2) g -d
 
 hexo_sever:
 	@$(CC2) s
