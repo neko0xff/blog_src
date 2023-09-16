@@ -29,7 +29,7 @@ tags: Windows
   2. 執行install捷徑安裝元件
   3. 可以開始運行
     <table><tr><td bgcolor=#FFFF00>
-        在運行過程中，部分程式可能報錯或者功能不正常
+      <font color=white> 在運行過程中，部分程式可能報錯或者功能不正常</font>
     </td></tr></table>
 
 ## REF
