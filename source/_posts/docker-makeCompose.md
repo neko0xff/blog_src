@@ -37,10 +37,10 @@ GNU Make 是一個常用於軟體開發的CLI工具，開發者只需透過自�
 	    @$(CC1) logs --tail=100 -f # 檢視容器內的運行過程(輸出未尾的100行)
 
     stop:
-	    @$(CC1) stop # 停止容器
+        @$(CC1) stop # 停止容器
 
     clean:
-	    @$(CC1) down # 停止且刪除容器
+        @$(CC1) down # 停止且刪除容器
    ```
 3. 下指令來驗証自己寫的makefile是否正確: `$ make`
 
