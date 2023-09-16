@@ -18,6 +18,13 @@ date: 2023-09-11 06:18:18
     * 把結果包裝成Container&Image,使服務可馬上部署&提供
     * 自動把結果輸出成靜態內容後，再發布到GitHub Pages
 
+## Side Project
+- 111專題: 空氣感測+本地SaaS
+  * [後端+硬體:Arduino+Nodejs+MariaDB](https://github.com/neko0xff/2023_schoolResearch_Server-HW)
+  * [前端:Flutter](https://github.com/neko0xff/2023_schoolResearch_ClientApp)
+- LineBot
+  * [後端:Nodejs](https://github.com/neko0xff/2023_LineBot_Node) 
+
 ## 主要的SNS
 - [GitHub](https://github.com/neko0xff)
 - [E-Mail](mailto:chzang55@gmail.com)
