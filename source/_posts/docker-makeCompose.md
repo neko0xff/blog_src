@@ -13,7 +13,7 @@ GNU Make 是一個常用於軟體開發的CLI工具，開發者只需透過自�
 - 縮排不能使用<font color=red>空白鍵</font>而是使用<font color=green>Tab鍵</font>，否則容易會出現語法問題
 - 注解的方式和Shell Scrpit一樣使用`#`
 
-## 01 步驟
+## 02 步驟
 1. 建立相關檔案: `makefile`/`Makefile` 
 2. 編寫相關指令
    ```makefile=
