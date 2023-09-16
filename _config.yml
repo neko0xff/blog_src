@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: neko0xff blog
-subtitle: ''
-description: ''
+title: neko0xff techBlog
+subtitle: '該Blog會存放自己寫的技術文章'
+description: 'Not Test & Study == Not Docs'
 keywords: 
    - Linux
    - IT
