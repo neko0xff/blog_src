@@ -10,6 +10,7 @@ tags:
 ### 主機間的關係
 * xx:崗位碼
 * Host-xx(192.168.x.1[Eth0]) < == > vGate-xx(192.168.x.254[Eth0] & 10.19.x.1[Eth1]) < == > Internet-xx (10.19.x.2[Eth1])
+
 ### vGate-xx(Fedora)網卡設定
 * DNS Server:192.168.x.1(Host-xx)
 * Eth0(enp0s3)==>Host-xx:

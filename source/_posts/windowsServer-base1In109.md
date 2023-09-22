@@ -8,6 +8,8 @@ tags:
 ---
 
 ## 00 緒論
+若不想要手動一個個進行建立使用者，則可選擇寫一個批次檔來處理大量建立使用者的部分。
+
 <table><tr><td bgcolor=0000FF>
   <font color=white>請先建好相對的群組:ITGroups,RDGroups,FeGroups</font>
 </td></tr></table>
@@ -15,7 +17,7 @@ tags:
 <!--more-->
 
 ## 01 cmd+bat
-#### 1-1 建立批次檔
+### 1-1 建立批次檔
 * IT.bat
 ```bat=
 For /L %%a in (1,1,9) do dsadd user "cn=IT0%%a,cn=Users,dc=sivs2020,dc=edu" -samid IT0%%a -email IT0%%a@sivs2020.edu -pwd IT@2020
@@ -33,7 +35,6 @@ For /L %%a in (10,1,50) do dsadd user "cn=Feusr%%a,cn=Users,dc=sivs2020,dc=edu" 
 ```
 
 ## 02 powershell
-
 ### 2-1 建立批次檔
 * IT.ps1
 ```powershell=
@@ -81,4 +82,6 @@ foreach($i in $count){
 ### 2-2 運行
 ```
 PS D:> powershell -executionpolicy bypass -file IT.ps1
+PS D:> powershell -executionpolicy bypass -file RD.ps1
+PS D:> powershell -executionpolicy bypass -file Feusr.ps1
 ```
