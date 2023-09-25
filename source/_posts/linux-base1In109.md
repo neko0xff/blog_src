@@ -19,6 +19,7 @@ tags:
 <!--more-->
 
 ## 01 SSH
+
 ### 設定檔位置
 ```bash
 $ sudo nano /etc/ssh/sshd_config
@@ -83,10 +84,12 @@ $ source /etc/bashrc
 ```
 
 ## 04 OpenSSL&HTTPS服務
+
 ### 4-1 安裝
 ```
 # dnf install openssl mod_ssl -y
 ```
+
 ### 4-2 建立金鑰且転成csr檔
 1. 建立金鑰
 ```bash
@@ -135,6 +138,7 @@ ca-bundle.trust.crt  linx.csr  linx.pem  old.cer        old.key
   * 檢視輸出的csr檔: `[root@Linx-10]# cat /etc/pki/tls/certs/old.csr`
   * 憑証範本: `[web伺服器]` 
 3. 下戴憑証
+
 ### 4-4 把憑証申請匯入本地
 1. 把憑証申請複制到`/etc/pki/tls/certs`
    ```
@@ -146,6 +150,7 @@ ca-bundle.trust.crt  linx.csr  linx.pem  old.cer        old.key
    ```
 
 ## 05 httpd
+
 ### 5-1 http加入驗證機制
 #### 5-1-1 建立目錄和網頁
 ```
@@ -198,10 +203,11 @@ $ sudo nano /etc/httpd/conf.d/linx.conf
 
 ### 5-2 http自動導向指定的網址
 - 建立目錄和網頁
-```
-$ sudo mkdir /var/www/old
-$ sudo nano /var/www/old/index.html
-```
+  ```
+    $ sudo mkdir /var/www/old
+    $ sudo nano /var/www/old/index.html
+  ```
+
 #### 內容 
 - `<meta http-equiv="refresh" content="轉跳的時間;url=轉跳的網址" />`
   ```htmlembedded=
@@ -233,7 +239,9 @@ $ sudo nano /etc/httpd/conf.d/old.conf
 </Directory>
 ```
 
-- 寫完請重啟apache httpd: `$ sudo systemctl restart httpd`
+<table><tr><td bgcolor=0000FF>
+  <font color=white>寫完請重啟apache httpd: `$ sudo systemctl restart httpd`</font>
+</td></tr></table>
 
 ### 5-4 設置防火牆
 ```
@@ -334,15 +342,15 @@ Created symlink /etc/systemd/system/multi-user.target.wants/nmb.service → /usr
 [root@Linx-10 ~]# groupadd public_readwrite
 [root@Linx-10 ~]# getent group public_readonly public_readwrite
 ```
----
+
 ## 08 iptables(Nftables)防火牆
-### 関閉firewalld
+### 8-1 関閉firewalld
 ```
 [root@Linx-10 ~]# systemctl stop firewalld
 [root@Linx-10 ~]# systemctl disable firewalld
 [root@Linx-10 ~]# systemctl mask --now firewalld
 ```
-### 設定iptables-nft清除且輸出目前的規則
+### 8-2 設定iptables-nft清除且輸出目前的規則
 #### 清除 
 ```
 [root@Linx-10 ~]# iptables-nft -F
@@ -361,7 +369,7 @@ target     prot opt source               destination
 Chain OUTPUT (policy ACCEPT)
 target     prot opt source               destination         
 ```
-### 建立対応的防火牆規則
+### 8-3 建立対応的防火牆規則
 #### INPUT Chain = DROP
 ```
 [root@Linx-10 ~]# iptables-nft -P INPUT DROP
@@ -395,7 +403,7 @@ target     prot opt source               destination
 Chain OUTPUT (policy ACCEPT)
 target     prot opt source               destination         
 ```
-### 建立規則檔(重開自動套用)
+### 8-4 建立規則檔(重開自動套用)
 1. 輸出規則檔的內容
 ```
 [root@Linx-10 ~]# nft list ruleset

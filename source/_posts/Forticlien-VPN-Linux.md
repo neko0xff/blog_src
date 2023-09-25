@@ -28,8 +28,8 @@ tags: Linux
      * 密碼: `(使用者自定義)`
 
 ## 03 使用終端&系統手動設置
-### 3-1 直接在終端機下設置連線
 
+### 3-1 直接在終端機下設置連線
 ```shell
   $ sudo openfortivpn sslvpn.aeust.edu.tw --username=[學號] --password=[(使用者自定義)] 
 ```
