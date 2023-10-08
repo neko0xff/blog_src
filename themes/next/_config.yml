@@ -1005,11 +1005,16 @@ mylinks:
   #   site: https://neko0xff.github.io/  #友站鏈結
   #   info: 喵。  #友站介紹
   #   avatar: https://neko0xff.github.io/images/avatar.jpg  #友站頭像
-  - nickname: Cynosura  #友站名稱
-    site: https://cynosura.one/ #友站鏈結
-    info: Trying to light up the dark.  #友站介紹
-    avatar: https://cynosura.one/img/profile-avatar.webp  #友站頭像
+  - nickname: Cynosura 
+    site: https://cynosura.one/
+    info: Trying to light up the dark. 
+    avatar: https://cynosura.one/img/profile-avatar.webp  
   - nickname: minetaro12
     site: https://0sn.net
     info: Oさんです
     avatar: https://0sn.net/img/saber.png
+  - nickname: 高科技的指挥中心
+    site: https://blog.hightechbrain.net/
+    info: 高科技大脑指挥部
+    avatar: https://blog.hightechbrain.net/img/avatar.png
+

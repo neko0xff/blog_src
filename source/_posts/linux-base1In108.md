@@ -51,6 +51,7 @@ tags:
 ```
 [root@localhost ~]# groupadd Feuser
 ```
+
 ## 05 大量新增使用者
 * 檔案:useradd.sh
   ```
@@ -94,6 +95,7 @@ tags:
 * 立即生效 "Command history"=只存5筆記錄: `
 [root@localhost ~]# source /etc/profile.d/custom.sh`
 * 檢視"Command history"的指令: `[root@localhost ~]# history`
+
 ## 08 Port Forwarding （網路転發設定）
 * 啟用網路転發: `[root@localhost ~]# nano /etc/sysctl.conf`
   ```shell=
