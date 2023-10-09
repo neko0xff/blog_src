@@ -1,9 +1,8 @@
 ---
-title: nodejs-使用swagger快速產生API文件
+title: node-使用swagger快速產生API文件
 date: 2023-09-24 12:22:17
 tags: 
   - node
-  - API
 ---
 
 ## 00 緒論
@@ -12,11 +11,11 @@ swagger可提供自動化的互動式API文件於網頁上，使相關人員(ex:
 <!--more-->
 
 ## 01 環境建置
-1. 加入到NodeJS專案
+1. 加入到Node專案
    * 安裝相関套件: `$ npm install swagger-autogen swagger-jsdoc swagger-ui-express --save`
 2. 請手動或使用`swagger-autogen`來建立`swagger.json`等檔案
 3. 在負責express路由中加入如下程式碼
-   ```javascrpit=
+   ```javascript=
       var swaggerUi = require('swagger-ui-express');
       const swaggerDocument = require('./config/swagger.json');
       ...
@@ -45,7 +44,7 @@ swagger可提供自動化的互動式API文件於網頁上，使相關人員(ex:
 
 ## 03 把寫好的API功能自動轉成文件
 1. 建立自動建立的程式: `./swaggerAutoGen.js`
-   ```javascrpit=
+   ```javascript=
      const swaggerAutogen = require("swagger-autogen")();
 
      /*需加入定義的API路由規則*/
