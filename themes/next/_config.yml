@@ -814,6 +814,7 @@ pdf:
 
 # Mermaid tag
 mermaid:
+  version: 8.8.4
   enable: true
   # Available themes: default | dark | forest | neutral
   theme: forest
