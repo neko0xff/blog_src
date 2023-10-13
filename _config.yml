@@ -36,7 +36,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render: 
-  - source/googleac6e772d11122b78.html
+  - googleac6e772d11122b78.html
   - sitemap.xml
 
 # Writing
