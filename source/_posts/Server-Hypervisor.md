@@ -120,3 +120,4 @@ Docker & VM 不只可單獨使用，也能互相搭配混合使用。
 - 臺中市政府資訊中心. (2012, May). 雲端虛擬化平台於臺中市政府資訊中心之建置與應用-第295期(5月). 政府機關資訊通報. https://www.dgbas.gov.tw/public/Data/24301042171.pdf
 - 花小錢辦大事，打造一台虛空電腦——實戰服務器虛擬化. 無情開評. https://www.youtube.com/watch?v=h1oZnncNSRA
   {%youtube h1oZnncNSRA %}
+- 王宏仁. (2015, May 15). Docker掀起微服務革命，廠商搶進Container OS競賽. IThome. https://www.ithome.com.tw/news/95752
