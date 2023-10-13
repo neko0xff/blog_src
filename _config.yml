@@ -35,7 +35,9 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: googleac6e772d11122b78.html
+skip_render: 
+  - source/googleac6e772d11122b78.html
+  - sitemap.xml
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -176,7 +178,7 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
 
 # nofollow: all external links for security, privacy and SEO
 nofollow:
-  enable: true
+  enable: false
   field: site
   exclude:
     - 'neko0xff.github.io'
