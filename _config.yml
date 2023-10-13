@@ -180,3 +180,8 @@ nofollow:
   field: site
   exclude:
     - 'neko0xff.github.io'
+
+# sitmap: 使搜尋引擎可找到
+sitemap:
+    path: sitemap.xml
+    # template: ./sitemap_template.xml # 這行非必填，除非你想設定自訂的樣板
