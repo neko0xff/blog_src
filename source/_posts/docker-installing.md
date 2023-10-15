@@ -1,5 +1,5 @@
 ---
-title: docker-installing
+title: docker-安裝相關服務
 date: 2023-10-15 11:30:06
 tags: docker
 ---
@@ -42,7 +42,8 @@ $ sudo chmod 666 /var/run/docker.sock
 ```
 
 ### 1-2 Mac&Windows
-由於macOS和Windows的內核架構不同，則有對應不同的解法
+由於macOS和Windows的內核架構不同，則有對應不同的解法。
+
 1. 安裝一台VM(ex: Ubuntu/Debian)，在其VM上安裝docker
    * [VMware](https://www.vmware.com/tw/products/workstation-player/workstation-player-evaluation.html)
    * [QEMU](https://www.qemu.org/download/)
