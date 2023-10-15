@@ -23,7 +23,7 @@ tags: docker
                   context: .
                   dockerfile: Dockerfile.env
   ```
-3. 則可開始同時建置鏡像檔&容器: `$ docker-compose up --build -d`
+3. 則可開始同時建置鏡像檔&容器: `$ docker compose up -d`
 
 ## REF
 - https://ithelp.ithome.com.tw/articles/10204781
